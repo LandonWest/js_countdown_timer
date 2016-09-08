@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+#clockdiv {
+  display: inline-block;
+  color: white;
+}
+#clockdiv > div {
+  display: inline-block;
+  background-color: green;
+  border-radius: 4px;
+  padding: 10px;
+}
+#clockdiv > div > span {
+  display: inline-block;
+  background-color: black;
+  padding: 15px;
+  font-size: 18px;
+}
+.clock-label {
+  padding-top: 10px;
+}
+#js-start-btn {
+  margin-top: 20px;
+  padding: 6px;
+  width: 150px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  color: black;
+}
+#js-start-btn:hover {
+  cursor: pointer;
+  background-color: grey;
+  color: white;
+}
