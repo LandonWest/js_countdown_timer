@@ -21,18 +21,3 @@ body {
 .clock-label {
   padding-top: 10px;
 }
-#js-start-btn {
-  margin-top: 20px;
-  padding: 6px;
-  width: 150px;
-  font-size: 14px;
-  font-weight: bold;
-  border: none;
-  border-radius: 4px;
-  color: black;
-}
-#js-start-btn:hover {
-  cursor: pointer;
-  background-color: grey;
-  color: white;
-}
